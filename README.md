@@ -1,4 +1,4 @@
-**um sistema completo de aquisição e gravação de dados do sensor de cor GY-33**, com **interface OLED SSD1306**, **cartão SD**, **LEDs indicadores** e **botões de controle**.
+**Nesta tarefa criamos um sistema completo de aquisição e gravação de dados do sensor de cor GY-33**, com **interface OLED SSD1306**, **cartão SD**, **LEDs indicadores** e **botões de controle**.
 Abaixo está uma **explicação resumida e clara** (uma síntese técnica do funcionamento geral):
 
 ---
@@ -6,7 +6,7 @@ Abaixo está uma **explicação resumida e clara** (uma síntese técnica do fun
 ## 🧩 **Síntese do Funcionamento do Código**
 
 O programa foi desenvolvido para a **Raspberry Pi Pico**, e realiza **a leitura contínua das cores captadas pelo sensor GY-33**.
-Esses dados são exibidos no **display OLED SSD1306** e, quando solicitado, são **gravados em um cartão SD** no formato de arquivo texto (CSV).
+Esses dados são exibidos no **display OLED SSD1306** e, quando solicitado, são **gravados em um cartão SD** no formato de arquivo txt.
 O controle das funções é feito pelos **botões físicos A e B**, e há **feedback visual por LEDs** e mensagens no display.
 
 ---
@@ -37,7 +37,7 @@ O controle das funções é feito pelos **botões físicos A e B**, e há **feed
      * Faz leitura das cores **R, G, B, Clear** pelo sensor GY-33.
      * Identifica o **nome da cor predominante** (função `identificar_cor()`).
      * Exibe os valores e o nome da cor no display SSD1306.
-     * Grava os dados no **cartão SD** em formato CSV:
+     * Grava os dados no **cartão SD** em formato txt:
 
        ```
        Amostra,Clear,Red,Green,Blue,cor
