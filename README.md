@@ -81,10 +81,6 @@ Ao rodar o código:
   ```
   GY33 -> C:123 R:255 G:120 B:90 cor:Vermelho
   Amostras coletadas: 10
-  Cartao SD montado com sucesso.
-  ```
+  Cartao SD montado com sucesso.  ```
 
 ---
-
-Se quiser, posso montar um **relatório técnico resumido** (com objetivos, materiais, funcionamento e resultados esperados) pronto para imprimir ou exportar em **PDF**.
-Quer que eu gere esse relatório?
